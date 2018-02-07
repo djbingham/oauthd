@@ -1,0 +1,16 @@
+# EditorConfig is used to enforce common file formatting across editors:
+# http://EditorConfig.org
+
+# Mark this file as root EditorConfig file for the project
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{yml, .yaml}]
+indent_size = 2
+indent_style = space
